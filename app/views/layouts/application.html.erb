@@ -10,8 +10,8 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
+    <div class="wrapper" style="background: url(<%= image_path('tokyobynight.jpg') %>); background-size: cover;">
     <%= render 'shared/navbar' %>
-    <div class="wrapper">
     <%= yield %>
     </div>
     <%= render 'shared/footer' %>
@@ -19,3 +19,5 @@
     <%= javascript_pack_tag 'application' %>
   </body>
 </html>
+
+<!-- url(<%#= image_path('tokyobynight.jpg') %>) -->

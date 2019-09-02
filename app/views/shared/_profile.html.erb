@@ -9,14 +9,14 @@
               Web-Developer
             </h2>
           </div>
-          <h4 class="mt-2">
+          <p class="mt-2">
             Ready to assist you with any web development needs
-          </h4>
+          </p>
         </div>
         <div class="mt-2">
-          <h5 class="mt-2">
+          <h3 class="mt-2">
             Programming Fluencies
-          </h5>
+          </h3>
           <p>
             <strong>Expertise in Ruby on Rails. Brought to production several web-apps.</strong>
           </p>
@@ -40,11 +40,12 @@
 
   <div class="cards">
     <div class="card-trip">
-      <%= image_tag 'CompanyMD.png' %>
+      <%= link_to "https://www.companymd.world", target: "_blank" do %>
+        <%= image_tag 'CompanyMD.png' %>
+      <% end %>
       <div class="card-trip-infos">
         <div class="card-trip-infos-header">
           <h2>Company MD</h2>
-          <%= link_to "Visit", "https://www.companymd.world", class: "dbtn-ghost", target: "_blank" %>
         </div>
         <h3>Backend Developer</h3>
         <p>CompanyMD is a web platform that aggregates a wide variety of financial data from market indices & individual stocks to yearly SEC report filings all in a user friendly format. It enables the everyone from amateur to expert analyst to make informed choices regarding their investments. The entire site was developed, outlined, and programmed in merely 2 weeks by a team of 4</p>
@@ -52,11 +53,12 @@
       </div>
     </div>
     <div class="card-trip">
-      <%= image_tag 'FindMySensei.png' %>
+      <%= link_to "https://stmatch.herokuapp.com", target: "_blank" do %>
+       <%= image_tag 'FindMySensei.png' %>
+      <% end %>
       <div class="card-trip-infos">
         <div class="card-trip-infos-header">
           <h2>Find My Sensei</h2>
-          <%= link_to "Visit", "https://stmatch.herokuapp.com", class: "dbtn-ghost", target: "_blank" %>
         </div>
         <h3>Lead Developer</h3>
         <p>FindMySensei is an AirBnB like website that is aimed at connecting students and teacher of any particular field together in an easy to use manner. By allowing prospective students see a wide array of lessons, make individual bookings and leave reviews, Find My Sensei aims to better connect people and develop the human potential in Tokyo and around the world. The entire site was developed, outlined, and programmed in merely 5 days by a team of 4</p>
@@ -64,11 +66,12 @@
       </div>
     </div>
     <div class="card-trip">
-      <%= image_tag 'BeachBumBeverages.png' %>
+      <%= link_to "https://beachbumbeverages.herokuapp.com", target: "_blank" do %>
+        <%= image_tag 'BeachBumBeverages.png' %>
+      <% end %>
       <div class="card-trip-infos">
         <div class="card-trip-infos-header">
           <h2>Beach Bum Beverages</h2>
-          <%= link_to "Visit", "https://beachbumbeverages.herokuapp.com", class: "dbtn-ghost", target: "_blank" %>
         </div>
         <h3>Sole Developer</h3>
         <p>Beach Bum Beverages was a 2 day crash course in developing a functional Ruby on Rails website. It offers any visitor the chance to create a cocktail with a photo of said cocktail along with detailed information on its ingredients.</p>
