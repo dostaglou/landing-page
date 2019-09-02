@@ -1,0 +1,5 @@
+meta_product_name: "Dillon Wyatt"
+meta_title: "Dillon Wyatt | A Ruby on Rails Web Developer"
+meta_description: "A Tokyo based Rails developer seeking opportunities to bring you and your company to the world!"
+meta_image: "bw-meintaipei.png" # should exist in `app/assets/images/`
+twitter_account: "@foreignorchid"   # required for Twitter Cards
