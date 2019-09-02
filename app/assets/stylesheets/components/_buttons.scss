@@ -1,0 +1,14 @@
+.dbtn-ghost {
+  text-decoration: none;
+  color: black;
+  border: 1px solid grey;
+  padding: 4px 8px;
+  border-radius: 10px;
+
+  &:hover {
+    transition: .4s;
+    color: white;
+    background: grey;
+    text-decoration: none;
+  }
+}
